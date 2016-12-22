@@ -83,7 +83,7 @@ protected:
 	static const float wheelSensitivityCoeff;
 	
 	/* Accel and Brake Constants*/
-	// 与油门和刹车相关的构造函数
+	// 与油门和刹车相关的常数
 	
 	// 允许的最大速度
 	static const float maxSpeed;
@@ -148,7 +148,7 @@ protected:
 	float filterABS(CarState &cs,float brake);
 
 	// Solves the clucthing subproblems
-	// 解决卡住了的问题
+	// 解决离合器的问题
 	void clutching(CarState &cs, float &clutch);
 };
 

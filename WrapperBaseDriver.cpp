@@ -18,7 +18,9 @@
 string 
 WrapperBaseDriver::drive(string sensors)
 {
+	// string 转换成Car状态信息
 	CarState cs(sensors);
+	// 传递状态信息，返回采取的操作
 	CarControl cc = wDrive(cs);
 	return cc.toString();	
 }
