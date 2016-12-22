@@ -59,8 +59,8 @@ private:
         float wheelSpinVel[4];
         float z;
        
-		IplImage *foresightImg;
-		IplImage *backsightImg;
+	IplImage *foresightImg;
+	IplImage *backsightImg;
 
 public:
 	

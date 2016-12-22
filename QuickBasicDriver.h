@@ -36,6 +36,7 @@ public:
 
 	// 简单的控制小车的主函数
 	virtual CarControl wDrive(CarState cs);
+
 };
 
 #endif /*QUICKBASICDRIVER_H_*/
